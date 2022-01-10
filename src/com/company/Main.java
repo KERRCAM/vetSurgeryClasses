@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         int intInput = libraryFunctions.getInt("type a number");
-        //libraryFunctions.
+
     }
 
 
