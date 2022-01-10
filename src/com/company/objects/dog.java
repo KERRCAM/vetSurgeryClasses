@@ -21,6 +21,11 @@ public class dog {
         this.lastfed = lastfed;
     }
 
+    @Override
+    public String toString() {
+        return animalID + ", " + name + ", " + species + ", " + age + ", " + weight + ", " + food + ", " + height + ", " + lastfed;
+    }
+
     public int getAnimalID() {
         return animalID;
     }
